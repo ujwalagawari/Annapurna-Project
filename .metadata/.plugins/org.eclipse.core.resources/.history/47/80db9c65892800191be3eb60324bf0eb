@@ -1,0 +1,25 @@
+package com.capgemini.restaurant;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import com.capgemini.restaurant.repository.RestaurantRepository;
+
+@SpringBootApplication
+public class RestaurantApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RestaurantApplication.class, args);
+	}
+	
+	
+	@Bean 
+	public CommandLineRunner produceData(RestaurantRepository repository) {
+		return (env) -> {
+			repository.save();
+		};
+	}
+}
+

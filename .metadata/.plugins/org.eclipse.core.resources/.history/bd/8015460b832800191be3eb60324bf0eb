@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.capgemini.restaurant.repository;
+
+/**
+ * @author ugawari
+ *
+ */
+public interface RestaurantRepository {
+
+}

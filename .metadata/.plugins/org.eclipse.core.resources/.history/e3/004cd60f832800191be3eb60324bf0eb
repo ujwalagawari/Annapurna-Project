@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.capgemini.restaurant.repository;
+
+import org.springframework.stereotype.Repository;
+
+/**
+ * @author ugawari
+ *
+ */
+@Repository
+public interface RestaurantRepository {
+
+}

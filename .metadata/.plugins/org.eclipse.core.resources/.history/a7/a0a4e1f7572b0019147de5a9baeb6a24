@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.capgemini.annapurnawebsite.controller;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * @author ugawari
+ *
+ */
+@Controller
+//@RequestMapping("/restaurants")
+public class RestaurantController {
+
+	@RequestMapping("/")
+	
+	
+}

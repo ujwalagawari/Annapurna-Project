@@ -1,0 +1,18 @@
+package com.capgemini.annapurna.restaurant.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.capgemini.annapurna.restaurant.entity.Restaurant;
+
+/**
+ * @author ugawari
+ *
+ */
+public interface RestaurantService {
+
+	List<Restaurant> getAllRestaurant();
+
+	Restaurant getRestaurantById(int restaurantId);
+
+}

@@ -1,0 +1,36 @@
+package com.capgemini.restaurant;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import com.capgemini.restaurant.entity.Address;
+import com.capgemini.restaurant.entity.FoodItem;
+import com.capgemini.restaurant.repository.RestaurantRepository;
+
+@SpringBootApplication
+public class RestaurantApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RestaurantApplication.class, args);
+	}
+	
+	Set<FoodItem> foodItems = new HashSet<FoodItem>();
+	Map<Integer, Integer> ratings =new HashMap<Integer, Integer>();
+	
+	
+	@Bean 
+	public CommandLineRunner produceData(RestaurantRepository repository) {
+		
+		
+		
+		return (env) -> {
+			repository.save(101, "Royal Foods", new Address("Vitawa", "Thane", "Maharashtra", "India", 450124),
+					foodItems,
+					, Map<Integer, String> reviews, String type, Set<String> photos);
+		};
+	}
+}
+

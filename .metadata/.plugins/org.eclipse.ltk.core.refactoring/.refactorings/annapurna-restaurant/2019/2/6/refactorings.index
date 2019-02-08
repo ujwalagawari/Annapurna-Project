@@ -1,0 +1,21 @@
+1549286609639	Rename package 'com.capgemini.Restaurant'
+1549289600502	Encapsulate field 'service'
+1549289780226	Encapsulate field 'repository'
+1549290067668	Rename package 'com.capgemini.Restaurant'
+1549290096851	Move compilation unit
+1549290101022	Delete element
+1549290107902	Move compilation unit
+1549290112706	Delete element
+1549290116105	Move compilation unit
+1549290119541	Move compilation unit
+1549290122016	Move compilation unit
+1549290125512	Delete element
+1549290127496	Delete element
+1549359062468	Delete element
+1549360474339	Rename package 'com.capgemini.restaurant.controller'
+1549360488324	Rename package 'com.capgemini.restaurant'
+1549364583692	Rename package 'com.capgemini.annapurna.restaurant.controller'
+1549364628455	Rename type 'RestaurantControllerWebMvcTest'
+1549364650386	Delete element
+1549364717820	Delete element
+1549601267912	Copy package

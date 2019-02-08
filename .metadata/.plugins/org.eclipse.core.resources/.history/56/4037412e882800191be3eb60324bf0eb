@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.capgemini.restaurant.entity;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+/**
+ * @author ugawari
+ *
+ */
+@Document
+public class Restaurant {
+
+}

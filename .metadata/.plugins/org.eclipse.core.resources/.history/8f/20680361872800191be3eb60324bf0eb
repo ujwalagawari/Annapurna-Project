@@ -1,0 +1,9 @@
+package com.capgemini.restaurant.service;
+
+/**
+ * @author ugawari
+ *
+ */
+public interface RestaurantService {
+
+}

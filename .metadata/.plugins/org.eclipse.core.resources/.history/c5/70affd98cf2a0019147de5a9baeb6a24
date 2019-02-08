@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.capgemini.annapurna.restaurant.Exception;
+
+/**
+ * @author ugawari
+ *
+ */
+public class InvalidIncommingInputException extends RuntimeException {
+
+	public InvalidIncommingInputException(String msg) {
+		super(msg);
+	}
+
+}
